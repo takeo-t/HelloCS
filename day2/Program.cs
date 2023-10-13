@@ -52,24 +52,35 @@ namespace Sample301
         //         Console.WriteLine("範囲外の数値です。");
         //     }
         // }
+        // // Swich文
+        // {
+        //     Console.Write("サイコロの目(1~6):");
+        //     int dice = int.Parse(Console.ReadLine());
+        //     switch(dice)
+        //     {
+        //         case 1:
+        //         case 3:
+        //         case 5:
+        //             Console.WriteLine("丁（チョウ）です。");
+        //             break;
+        //         case 2:
+        //         case 4:
+        //         case 6:
+        //             Console.WriteLine("半（ハン）です。");
+        //             break;
+        //         default:
+        //             Console.WriteLine("範囲外の数値です。");
+        //             break;
+        //     }
+        // }
+        //prob 3-2
         {
-            Console.Write("サイコロの目(1~6):");
-            int dice = int.Parse(Console.ReadLine());
-            switch(dice)
-            {
-                case 1:
-                case 3:
-                case 5:
-                    Console.WriteLine("丁（チョウ）です。");
-                    break;
-                case 2:
-                case 4:
-                case 6:
-                    Console.WriteLine("半（ハン）です。");
-                    break;
-                default:
-                    Console.WriteLine("範囲外の数値です。");
-                    break;
+            Console.Write("整数値を入力");
+            int inputNum = int.Parse(Console.ReadLine());
+            if(inputNum != 4){
+                Console.WriteLine("4ではありません。");
+            }else{
+                Console.WriteLine("4ですね😃");
             }
         }
     }
