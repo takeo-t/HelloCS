@@ -131,9 +131,8 @@ namespace Sample401
                 Console.Write("□");
                 }
                 for (int j = i+1; j <= size; j++){
-                Console.Write("■");
-                }
-                Console.WriteLine();
+                Console.Write("◼️");
+                } Console.WriteLine();
             }
         }
     }
