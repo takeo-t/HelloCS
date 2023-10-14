@@ -74,13 +74,27 @@ namespace Sample301
         //     }
         // }
         //prob 3-2
+        // {
+        //     Console.Write("整数値を入力");
+        //     int inputNum = int.Parse(Console.ReadLine());
+        //     if(inputNum != 4){
+        //         Console.WriteLine("4ではありません。");
+        //     }else{
+        //         Console.WriteLine("4ですね😃");
+        //     }
+        // }
+        //prob3-17
         {
-            Console.Write("整数値を入力");
+            Console.Write("1から100までの整数値を入力してください:");
             int inputNum = int.Parse(Console.ReadLine());
-            if(inputNum != 4){
-                Console.WriteLine("4ではありません。");
+            if( inputNum <= 50 && inputNum % 2 == 0){
+                Console.WriteLine("50以下の偶数です。");
+            }else if( inputNum % 2 == 0){
+                Console.WriteLine("偶数です。");
+            }else if( inputNum <= 50 ){
+                Console.WriteLine("50以下です。");
             }else{
-                Console.WriteLine("4ですね😃");
+                Console.WriteLine("適切な値を入力してください。");
             }
         }
     }
