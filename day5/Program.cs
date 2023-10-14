@@ -149,3 +149,39 @@ using System.Threading.Tasks;
 //         }
 //     }
 // }
+// prob5-3
+namespace prob5_3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int[] data = new int[10];
+            Random rnd = new Random();
+            for (int i = 0; i < data.Length; i++)
+            {
+                data[i] = rnd.Next(1,101);
+                Console.Write(data[i] + " ");
+            }
+            Console.WriteLine();
+
+            Console.Write("奇数:");
+            foreach(int i in data){
+                if(i % 2 != 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+
+            Console.Write("偶数:");
+            foreach(int i in data){
+                if(i % 2 == 0)
+                {
+                    Console.Write(i + " ");
+                }
+            }
+            Console.WriteLine();
+        }
+    }
+}
