@@ -64,7 +64,7 @@ namespace Sample401
         //     Console.WriteLine("終了");
         // }
 
-        //prob4-1
+        //prob 4-1
         // {
         //     Console.Write("整数値を入力");
         //     int inputNum = int.Parse(Console.ReadLine());
@@ -74,28 +74,67 @@ namespace Sample401
         //     Console.WriteLine();
         // }
 
-        //prob4-8
+        // //prob 4-8
+        // {
+        //     while(true)
+        //     {
+        //         Console.WriteLine("0以上の数値を入力してください。");
+        //         int inputNum;
+        //         if(int.TryParse(Console.ReadLine(), out inputNum))//入力値が数字であることをチェック
+        //         {
+        //             if(inputNum >= 0){
+        //                 Console.WriteLine(inputNum);
+        //             }
+        //             else
+        //             {
+        //                 break;
+        //             }
+        //         }
+        //         else
+        //         {
+        //         Console.WriteLine("数字を入力してください。");
+        //         }
+        //     }
+        // Console.WriteLine("終了します");
+        // }
+
+        // //prob 4-17
+        // {
+        //     int size = 10;
+        //     for(int i = 1; i <= size; i++){
+        //         for(int j = 1; j <= i; j++){
+        //             Console.Write("■");
+        //         }
+        //         for(int j = i+1; j <= size; j++){
+        //             Console.Write("□");
+        //         }
+        //         Console.WriteLine();
+        //     }
+        // }
+        // //prob 4-18
+        // {
+        //     int size = 10;
+        //     for(int i = 1; i <= size; i++){
+        //         for(int j = 1; j <= size; j++){
+        //             if(i == j){Console.Write("□");
+        //             } else {
+        //                 Console.Write("■");
+        //             }
+        //         }
+        //         Console.WriteLine();
+        //     }
+        // }
         {
-            while(true)
-            {
-                Console.WriteLine("0以上の数値を入力してください。");
-                int inputNum;
-                if(int.TryParse(Console.ReadLine(), out inputNum))//入力値が数字であることをチェック
-                {
-                    if(inputNum >= 0){
-                        Console.WriteLine(inputNum);
-                    }
-                    else
-                    {
-                        break;
-                    }
+            int size = 10;
+            for (int i = 1; i <= size; i++){
+                for (int j = 1; j <= i; j++){
+                Console.Write("□");
                 }
-                else
-                {
-                Console.WriteLine("数字を入力してください。");
+                for (int j = i+1; j <= size; j++){
+                Console.Write("■");
+                }
+                Console.WriteLine();
             }
-        }
-        Console.WriteLine("終了します");
         }
     }
 }
