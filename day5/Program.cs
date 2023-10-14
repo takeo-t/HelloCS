@@ -110,3 +110,42 @@ using System.Threading.Tasks;
 //         }
 //     }
 // }
+
+// //prob5-1.
+// namespace prob5_1
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int[] a = new int[7];
+//             Random rnd = new Random();
+//             for (int i = 0; i < a.Length; i++)
+//             {
+//                 a[i] = rnd.Next(1, 11);
+//             }
+//                 Console.WriteLine("配列 a の内容");
+//             for (int i = 0; i < a.Length; i++)
+//             {
+//                 Console.Write(a[i] + " ");
+//             }
+//             Console.WriteLine();
+//         }
+//     }
+// }
+
+// //prob5-2.
+// namespace prob5_2
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             double[] d = {0.2,-5.1,3.2,1.8};
+//             foreach(double i in d){
+//                 Console.Write("{0} ",i);
+//             }
+//             Console.WriteLine();
+//         }
+//     }
+// }
