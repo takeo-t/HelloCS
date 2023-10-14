@@ -1,0 +1,14 @@
+/Users/t.takeo/portfolio/HelloC#/day3/bin/Debug/net7.0/day3
+/Users/t.takeo/portfolio/HelloC#/day3/bin/Debug/net7.0/day3.deps.json
+/Users/t.takeo/portfolio/HelloC#/day3/bin/Debug/net7.0/day3.runtimeconfig.json
+/Users/t.takeo/portfolio/HelloC#/day3/bin/Debug/net7.0/day3.dll
+/Users/t.takeo/portfolio/HelloC#/day3/bin/Debug/net7.0/day3.pdb
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.AssemblyInfoInputs.cache
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.AssemblyInfo.cs
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.csproj.CoreCompileInputs.cache
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.dll
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/refint/day3.dll
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.pdb
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/day3.genruntimeconfig.cache
+/Users/t.takeo/portfolio/HelloC#/day3/obj/Debug/net7.0/ref/day3.dll
