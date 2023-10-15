@@ -149,38 +149,76 @@ using System.Threading.Tasks;
 //         }
 //     }
 // }
-// prob5-3
-namespace prob5_3
+// // prob5-3
+// namespace prob5_3
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             int[] data = new int[10];
+//             Random rnd = new Random();
+//             for (int i = 0; i < data.Length; i++)
+//             {
+//                 data[i] = rnd.Next(1,101);
+//                 Console.Write(data[i] + " ");
+//             }
+//             Console.WriteLine();
+
+//             Console.Write("奇数:");
+//             foreach(int i in data){
+//                 if(i % 2 != 0)
+//                 {
+//                     Console.Write(i + " ");
+//                 }
+//             }
+//             Console.WriteLine();
+
+//             Console.Write("偶数:");
+//             foreach(int i in data){
+//                 if(i % 2 == 0)
+//                 {
+//                     Console.Write(i + " ");
+//                 }
+//             }
+//             Console.WriteLine();
+//         }
+//     }
+// }
+//prob5-4
+namespace prob5_4
 {
     class Program
     {
+
         static void Main(string[] args)
         {
-            int[] data = new int[10];
-            Random rnd = new Random();
-            for (int i = 0; i < data.Length; i++)
+        int[] data = new int[10];
+        Random rnd = new Random();
+        for(int i = 0; i < data.Length; i++)
+        {
+            data[i] = rnd.Next(1,101);
+            Console.Write(data[i] + " ");
+        }
+        Console.WriteLine();
+
+        Console.Write("50以上の数 : ");
+        foreach(int i in data){
+            if(i >= 50)
             {
-                data[i] = rnd.Next(1,101);
-                Console.Write(data[i] + " ");
+                Console.Write(i + " ");
             }
-            Console.WriteLine();
+        }
 
-            Console.Write("奇数:");
-            foreach(int i in data){
-                if(i % 2 != 0)
-                {
-                    Console.Write(i + " ");
-                }
-            }
-            Console.WriteLine();
+        Console.WriteLine();
 
-            Console.Write("偶数:");
-            foreach(int i in data){
-                if(i % 2 == 0)
-                {
-                    Console.Write(i + " ");
-                }
+        Console.Write("50未満の数 : ");
+        foreach(int i in data){
+            if(i < 50)
+            {
+                Console.Write(i + " ");
             }
+        }
             Console.WriteLine();
         }
     }
