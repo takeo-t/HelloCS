@@ -185,41 +185,41 @@ using System.Threading.Tasks;
 //         }
 //     }
 // }
-//prob5-4
-namespace prob5_4
-{
-    class Program
-    {
+// //prob5-4
+// namespace prob5_4
+// {
+//     class Program
+//     {
 
-        static void Main(string[] args)
-        {
-        int[] data = new int[10];
-        Random rnd = new Random();
-        for(int i = 0; i < data.Length; i++)
-        {
-            data[i] = rnd.Next(1,101);
-            Console.Write(data[i] + " ");
-        }
-        Console.WriteLine();
+//         static void Main(string[] args)
+//         {
+//         int[] data = new int[10];
+//         Random rnd = new Random();
+//         for(int i = 0; i < data.Length; i++)
+//         {
+//             data[i] = rnd.Next(1,101);
+//             Console.Write(data[i] + " ");
+//         }
+//         Console.WriteLine();
 
-        Console.Write("50以上の数 : ");
-        foreach(int i in data){
-            if(i >= 50)
-            {
-                Console.Write(i + " ");
-            }
-        }
+//         Console.Write("50以上の数 : ");
+//         foreach(int i in data){
+//             if(i >= 50)
+//             {
+//                 Console.Write(i + " ");
+//             }
+//         }
 
-        Console.WriteLine();
+//         Console.WriteLine();
 
-        Console.Write("50未満の数 : ");
-        foreach(int i in data){
-            if(i < 50)
-            {
-                Console.Write(i + " ");
-            }
-        }
-            Console.WriteLine();
-        }
-    }
-}
+//         Console.Write("50未満の数 : ");
+//         foreach(int i in data){
+//             if(i < 50)
+//             {
+//                 Console.Write(i + " ");
+//             }
+//         }
+//             Console.WriteLine();
+//         }
+//     }
+// }

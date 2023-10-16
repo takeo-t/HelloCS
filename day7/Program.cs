@@ -45,18 +45,36 @@
 //        }
 // }
 
-//prob7-1
+// //prob7-1
 
-namespace Problem7_1
+// namespace Problem7_1
+// {
+//     class Program
+//     {
+//         static void Main(string[] args)
+//         {
+//             Data d = new Data();
+//             d.Number = 100; //public int Numberにアクセス
+//             d.Comment = "Programming C#"; //public string Commentにアクセス
+//             d.DisplayData();
+//         }
+//     }
+// }
+
+//prob7-2
+
+namespace Problem7_2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Data d = new Data();
-            d.Number = 100; //public int Numberにアクセス
-            d.Comment = "Programming C#"; //public string Commentにアクセス
-            d.DisplayData();
+            TwoStrings s = new TwoStrings();
+            s.String1 = "Hello";
+            s.String2 = "World";
+            Console.WriteLine("一つ目の文字列は" + s.String1);
+            Console.WriteLine("二つ目の文字列は" + s.String2);
+            Console.WriteLine("二つの文字列を合成したものは" + s.GetConnectedString());
         }
     }
 }
