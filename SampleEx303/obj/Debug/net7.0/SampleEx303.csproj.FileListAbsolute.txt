@@ -1,0 +1,4 @@
+/Users/t.takeo/portfolio/HelloC#/SampleEx303/obj/Debug/net7.0/SampleEx303.GeneratedMSBuildEditorConfig.editorconfig
+/Users/t.takeo/portfolio/HelloC#/SampleEx303/obj/Debug/net7.0/SampleEx303.AssemblyInfoInputs.cache
+/Users/t.takeo/portfolio/HelloC#/SampleEx303/obj/Debug/net7.0/SampleEx303.AssemblyInfo.cs
+/Users/t.takeo/portfolio/HelloC#/SampleEx303/obj/Debug/net7.0/SampleEx303.csproj.CoreCompileInputs.cache
