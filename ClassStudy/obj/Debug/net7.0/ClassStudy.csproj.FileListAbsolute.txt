@@ -1,0 +1,14 @@
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/bin/Debug/net7.0/ClassStudy
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/bin/Debug/net7.0/ClassStudy.deps.json
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/bin/Debug/net7.0/ClassStudy.runtimeconfig.json
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/bin/Debug/net7.0/ClassStudy.dll
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/bin/Debug/net7.0/ClassStudy.pdb
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.GeneratedMSBuildEditorConfig.editorconfig
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.AssemblyInfoInputs.cache
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.AssemblyInfo.cs
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.csproj.CoreCompileInputs.cache
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.dll
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/refint/ClassStudy.dll
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.pdb
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ClassStudy.genruntimeconfig.cache
+/Users/t.takeo/portfolio/HelloC#/ClassStudy/obj/Debug/net7.0/ref/ClassStudy.dll
